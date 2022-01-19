@@ -103,7 +103,7 @@ header nav ul li a {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
+/*transiciones y tranformaciones*/
 .container-imagenes:hover .krusty-image,
 .container-imagenes:hover .typhoon-image,
 .container-imagenes:hover .disney-image{
@@ -121,12 +121,63 @@ header nav ul li a {
     transition: all 1s linear;
 }
 
+/*fin*/
 .flex-imagenes{
     display: flex;
     flex-direction: column;
 }
 
+/*transiciones y tranformaciones*/
+.enlaces{
+    width: 60%;
+    height: 20%;
+    font-size: 20px;
+    list-style-type: none;
+}
 
+.enlaces:hover .hotel-uno,
+.enlaces:hover .hotel-dos,
+.enlaces:hover .hotel-tres,
+.enlaces:hover .hotel-cuatro,
+.enlaces:hover .hotel-cinco,
+.enlaces:hover .hotel-seis,
+.enlaces:hover .hotel-siete,
+.enlaces:hover .hotel-ocho{
+    transform: rotateY(25deg);
+}
+
+.hotel-uno{
+    transition: all 5s ease;
+}
+
+.hotel-dos{
+    transition: all 8s ease;
+}
+
+.hotel-tres{
+    transition: all 11s ease;
+}
+
+.hotel-cuatro{
+    transition: all 14s ease;
+}
+
+.hotel-cinco{
+    transition: all 17s ease;
+}
+
+.hotel-seis{
+    transition: all 20s ease;
+}
+
+.hotel-siete{
+    transition: all 23s ease;
+}
+
+.hotel-ocho{
+    transition: all 26s ease;
+}
+/*fin*/
 /*imagenes de la seccion transporte*/
 .alamo{
 height: 169px;
