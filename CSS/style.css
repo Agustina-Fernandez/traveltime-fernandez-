@@ -104,11 +104,22 @@ header nav ul li a {
     flex-wrap: wrap;
 }
 
-
-.krusty-image{
-    height: 81%;
+.container-imagenes:hover .krusty-image,
+.container-imagenes:hover .typhoon-image,
+.container-imagenes:hover .disney-image{
+    transform: scale(1.1);
 }
 
+.disney-image{
+    transition: all 5s linear;
+}
+.typhoon-image{
+    transition: all 3s linear;
+}
+.krusty-image{
+    height: 81%;
+    transition: all 1s linear;
+}
 
 .flex-imagenes{
     display: flex;
