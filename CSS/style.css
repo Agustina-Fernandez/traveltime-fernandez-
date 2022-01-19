@@ -1,0 +1,406 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*header*/
+   
+.logo-header img{
+    margin-top: 1%;
+    width: 80px;
+    padding: 0.6%;
+ }
+
+ header {
+     width: 100%; 
+    background-color: #00b4d8;
+    border-bottom: 3px solid #D67AB1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .menu{
+     display: grid;
+     grid-template-columns: repeat(11,1fr);
+     grid-template-rows: repeat(1,1fr);
+ }
+
+.menu ul{
+    grid-area: 1 / 4 / 1 / 11;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    } 
+
+header nav ul li {
+   list-style-type: none;
+   margin-right: 5em;
+   padding: 4% 0;
+   text-align: center;
+}
+
+.header-excursiones {
+    margin-bottom: 8%;
+}
+
+
+header nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #dab6fc;
+    font-weight: 500;
+    font-family: 'Louis George Cafe Bold';
+    font-size: medium
+}
+/*Fin Header*/
+
+/*imagen del castillo editada de la pagina principal*/
+.imagen-castillo {
+    width: 100%;
+}
+
+/*Fuentes*/
+@font-face {
+    font-family:'Blacklisted';
+    src: url('../web-fonts/blacklisted-webfont.woff') format('woff');
+    font-display: swap;}      
+    
+@font-face {
+    font-family: 'Louis George Cafe Bold';
+    src: url('../web-fonts/louis_george_cafe_bold-webfont.woff') format('woff');
+    font-display: swap;
+}
+
+/*Secciones*/
+
+/*secciones 3,4,5,6 y 7 de la pagina principal*/
+.texto {
+    margin: 5% 0 5% 0.5%;
+    font-weight: 900;
+    font-size: large;
+    font-style: normal;
+    font-family: 'Louis George Cafe Bold';
+    text-transform: uppercase;
+    }
+.opciones {
+        color: pink;
+        margin-bottom: 0.8%;
+        font-family:'Blacklisted';
+        font-size: x-large;
+        text-shadow: cornflowerblue 5px 2px 4px;
+    }
+
+    /*seccion 1 y 2:imagenes y sus textos de la pagina principal*/
+.imagenes {
+   margin-top: 10%;
+   width: 350px;
+}
+
+.container-imagenes{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.krusty-image{
+    height: 81%;
+}
+
+
+.flex-imagenes{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*imagenes de la seccion transporte*/
+.alamo{
+height: 169px;
+width: 250px;
+}
+.alamo,.hertz{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    margin-top: 3%;
+    padding-right: 10%;
+}
+
+/*titulos de las fotos de la pagina principal*/
+.lugares {
+    margin-left: 0.5%;
+    font-family: 'Louis George Cafe Bold';
+    font-size: medium;
+    font-weight: 200;
+    font-style: italic;
+    color: pink;
+}
+
+
+body {
+    background-image: url('../imagenes/fondo-avion.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 1350px 805px;
+    color:#fffd5d;
+    font-family:'Louis George Cafe Bold';
+}
+
+/*Titulos en la pagina de excursiones*/
+.titles {
+    text-transform:uppercase;
+    color: pink;
+    font-weight: 600;
+    font-size: xx-large;
+    font-family:'Blacklisted';
+    text-shadow: cornflowerblue 5px 2px 4px;
+}
+
+
+.section-container{
+     margin-top: 3.5%;
+}
+
+/*Subtitulos en la pagina de excursiones*/
+.nombres-parques {
+text-transform: capitalize;
+color: #fffd5d;
+font-weight: 400;
+margin-top: 3.5%;
+font-family: 'Louis George Cafe Bold';
+}
+
+/*textos de la pagina excursiones*/
+ol li{
+    color:pink ;
+    text-transform: uppercase;
+    font-family: 'Louis George Cafe Bold';
+    font-weight: 900;
+    margin-bottom: 0.5%;
+    font-size:larger;
+}
+ul li{
+    color:pink;
+    text-transform: uppercase;
+    font-family: 'Louis George Cafe Bold';
+    font-weight: 900;
+    margin-bottom: 0.5%;
+    font-size: larger;
+}
+.parrafo-excursiones {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Louis George Cafe Bold';
+    font-weight: 900;
+    }
+
+/*imagenes de la pagina excursiones*/
+.imagen-piratas{
+    height: 204px;
+    width: 387px;
+}
+.imagen-revenge{
+    height: 204px;
+    width: 387px;
+}
+.imagen-adventure{
+    height: 230px;
+}
+
+.imagenes-atracciones{
+    margin-top: 1%;
+    padding-right: 6%;
+}
+
+/*footer de la pagina principal*/
+
+.iconos-redes{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+.iconos-redes ul{
+    list-style-type: none;
+    grid-area: 1 / 2 / 1 / 7;
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0;
+}
+
+#check{
+    display: none;
+}
+
+.icono-menu{
+    height: 35px;
+    width: 30px;
+}
+
+header label{
+    display: none;
+}
+
+
+
+/*media queries*/
+@media only screen and (max-width:599px){
+    header{
+        border-bottom: 2px solid #00b4d8;
+        background-color: #d67ab1
+    }
+   .opciones {
+        color: cornflowerblue;
+        margin-bottom: 0.8%;
+        font-family:'Blacklisted';
+        font-size: x-large;
+        text-shadow: pink 5px 2px 4px;
+    }
+    ol li{
+    color:lightblue ;
+    text-transform: uppercase;
+    font-family: 'Louis George Cafe Bold';
+    font-weight: 900;
+    margin-bottom: 0.5%;
+    font-size:larger;
+}
+ul li{
+    color:lightblue;
+    text-transform: uppercase;
+    font-family: 'Louis George Cafe Bold';
+    font-weight: 900;
+    margin-bottom: 0.5%;
+    font-size: larger;
+}
+    body{
+        color: white;
+    }
+    .nombres-parques{
+        color: white;
+    }
+    .lugares {
+    margin-left: 2%;
+    font-family: 'Louis George Cafe Bold';
+    font-size: x-large;
+    font-weight: 400;
+    font-style: normal;
+    color: lightblue;
+}
+    .titles {
+    text-transform:uppercase;
+    color: cornflowerblue;
+    font-weight: 600;
+    font-size: xx-large;
+    font-family:'Blacklisted';
+    text-shadow: pink 5px 2px 4px;
+}
+    header label{
+        display: block;
+  }
+    
+    .menu{
+        position: absolute;
+        background-color: blueviolet; 
+        width: 40%;
+        margin-left: -70%;
+        margin-top: 58%;
+        justify-content: flex-end;
+    }
+    
+    .menu ul{
+       
+        flex-direction: column;
+        
+    }
+    .icono-menu{
+        display: block;
+        cursor: pointer;
+        float: right;
+    }
+    #check:checked ~ .menu{
+        margin-left: 60%;
+        margin-top: 75%
+    }
+   
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px){
+        header{
+        border-bottom: 2px solid #00b4d8;
+        background-color: #d67ab1
+}
+.opciones {
+        color: blueviolet;
+        margin-bottom: 0.8%;
+        font-family:'Blacklisted';
+        font-size: x-large;
+        text-shadow: beige 5px 2px 4px;
+    }
+    .nombres-parques{
+        color: cornflowerblue;
+    }
+    body{
+        color: cornflowerblue;
+    }
+    .titles{
+    text-transform:uppercase;
+    color: blueviolet;
+    font-weight: 600;
+    font-size: xx-large;
+    font-family:'Blacklisted';
+    text-shadow: beige 5px 2px 4px;
+    }
+      ol li{
+    color:azure ;
+    text-transform: uppercase;
+    font-family: 'Louis George Cafe Bold';
+    font-weight: 900;
+    margin-bottom: 0.5%;
+    font-size:larger;
+}
+   ul li{
+    color:azure;
+    text-transform: uppercase;
+    font-family: 'Louis George Cafe Bold';
+    font-weight: 900;
+    margin-bottom: 0.5%;
+    font-size: larger;
+  }
+    .lugares {
+    font-family: 'Louis George Cafe Bold';
+    font-size: large;
+    font-weight: 300;
+    font-style: normal;
+    color: azure;
+}
+    header label{
+        display: block;
+  }
+    
+    .menu{
+        position: absolute;
+        background-color: blueviolet; 
+        width: 40%;
+        margin-left: -70%;
+        margin-top: 58%;
+        justify-content: flex-end;
+    }
+    
+    .menu ul{
+       
+        flex-direction: column;
+        
+    }
+    .icono-menu{
+        display: block;
+        cursor: pointer;
+        float: right;
+    }
+    #check:checked ~ .menu{
+        margin-left: 60%;
+        margin-top:50%
+    }
+    
+}
