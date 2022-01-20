@@ -292,6 +292,30 @@ ul li{
     margin: 5% 0;
 }
 
+/*transiciones y transformaciones de la rama agus-branch*/
+.icons:hover .face,
+.icons:hover .insta,
+.icons:hover .whats,
+.icons:hover .twitt{
+    transform: rotate(180deg);
+}
+
+.face{
+    transition: all 3s ease;
+}
+
+.insta{
+    transition: all 3s ease-out;
+}
+
+.whats{
+    transition: all 3s ease-in-out;
+}
+
+.twitt{
+    transition: all 3s ease-in;
+}
+
 #check{
     display: none;
 }
