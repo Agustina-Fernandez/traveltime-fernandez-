@@ -30,7 +30,14 @@
     color: palegreen;
 }
 
+.header-formulario{
+    background-color: #00b4d8;
+    border-bottom: 3px solid #d67ab1;
+}
 
+.logo{
+    width: 8%;
+}
 /*Fin Header*/
 
 /*imagen del castillo editada de la pagina principal*/
