@@ -190,7 +190,7 @@ body {
     background-image: url('../imagenes/fondo-avion.jpg');
     background-repeat: no-repeat;
     background-attachment:fixed;
-    background-size: 1350px 805px;
+    background-size: 100% 100%;
     color:#fffd5d;
     font-family:'Louis George Cafe Bold';
 }
@@ -301,20 +301,6 @@ ul li{
     transition: all 3s ease-in;
 }
 
-#check{
-    display: none;
-}
-
-.icono-menu{
-    height: 35px;
-    width: 30px;
-}
-
-header label{
-    display: none;
-}
-
-
 
 /*media queries*/
 @media only screen and (max-width:599px){
@@ -367,33 +353,7 @@ ul li{
     font-family:'Blacklisted';
     text-shadow: pink 5px 2px 4px;
 }
-    header label{
-        display: block;
-  }
-    
-    .menu{
-        position: absolute;
-        background-color: blueviolet; 
-        width: 40%;
-        margin-left: -70%;
-        margin-top: 58%;
-        justify-content: flex-end;
-    }
-    
-    .menu ul{
-       
-        flex-direction: column;
-        
-    }
-    .icono-menu{
-        display: block;
-        cursor: pointer;
-        float: right;
-    }
-    #check:checked ~ .menu{
-        margin-left: 60%;
-        margin-top: 75%
-    }
+
    
 }
 
@@ -446,32 +406,5 @@ ul li{
     font-style: normal;
     color: azure;
 }
-    header label{
-        display: block;
-  }
-    
-    .menu{
-        position: absolute;
-        background-color: blueviolet; 
-        width: 40%;
-        margin-left: -70%;
-        margin-top: 58%;
-        justify-content: flex-end;
-    }
-    
-    .menu ul{
-       
-        flex-direction: column;
-        
-    }
-    .icono-menu{
-        display: block;
-        cursor: pointer;
-        float: right;
-    }
-    #check:checked ~ .menu{
-        margin-left: 60%;
-        margin-top:50%
-    }
     
 }
