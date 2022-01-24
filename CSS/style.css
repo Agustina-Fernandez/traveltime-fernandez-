@@ -5,54 +5,32 @@
 }
 /*header*/
    
-.logo-header img{
+.logo-header{
     margin-top: 1%;
     width: 80px;
     padding: 0.6%;
  }
 
- header {
-     width: 100%; 
+ .bg-nav{
     background-color: #00b4d8;
-    border-bottom: 3px solid #D67AB1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
-
- .menu{
-     display: grid;
-     grid-template-columns: repeat(11,1fr);
-     grid-template-rows: repeat(1,1fr);
- }
-
-.menu ul{
-    grid-area: 1 / 4 / 1 / 11;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    } 
-
-header nav ul li {
-   list-style-type: none;
-   margin-right: 5em;
-   padding: 4% 0;
-   text-align: center;
+    border-bottom: 2px solid #d67ab1;
 }
 
-.header-excursiones {
-    margin-bottom: 8%;
-}
-
-
-header nav ul li a {
-    text-transform: capitalize;
+.estilos{
     text-decoration: none;
-    color: #dab6fc;
+    font-size: 1.2rem;
     font-weight: 500;
     font-family: 'Louis George Cafe Bold';
-    font-size: medium
+    text-transform: capitalize;
+    color: #dab6fc;
+    padding: 0 1.3rem;
 }
+
+.estilos:hover{
+    color: palegreen;
+}
+
+
 /*Fin Header*/
 
 /*imagen del castillo editada de la pagina principal*/
