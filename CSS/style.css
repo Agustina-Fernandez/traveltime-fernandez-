@@ -106,7 +106,10 @@
 }
 
 /*seccion hoteles*/
-
+.hoteles{
+    text-decoration: none;
+    color: mistyrose;
+}
 /*transiciones y tranformaciones*/
 .enlaces{
     width: 60%;
