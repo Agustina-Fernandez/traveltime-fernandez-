@@ -40,6 +40,10 @@
 }
 /*Fin Header*/
 
+/*seccion formulario*/
+.container{
+    margin-top: 5%;
+}
 /*imagen del castillo editada de la pagina principal*/
 .imagen-castillo {
     width: 100%;
