@@ -109,6 +109,8 @@
 .hoteles{
     text-decoration: none;
     color: mistyrose;
+    font-size: 1rem;
+    font-weight: 100;
 }
 /*transiciones y tranformaciones*/
 .enlaces{
