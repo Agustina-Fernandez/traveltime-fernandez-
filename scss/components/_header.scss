@@ -1,0 +1,59 @@
+@import '../base/listas';
+@import '../base/variable';
+@import '../base/mixins';
+
+header{
+
+      background-color: nth($colores, 2);
+      border-bottom: $border-bottom;
+    nav{
+
+        
+
+
+        ul{
+
+
+            
+            li{
+
+                
+                a{
+
+                    color: nth($colores, 4);
+                    padding: 0 1.3rem;
+                   
+                    &:hover{
+                        color: nth($colores, 1);
+                    }
+                  
+                 }
+
+
+
+
+            }
+
+
+
+
+
+        }
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+}
