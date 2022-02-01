@@ -1,0 +1,27 @@
+
+@mixin medidas ($ancho, $relleno, $margen) {
+    width: $ancho;
+    padding: $relleno;
+    margin: $margen;
+}
+
+.logo-header{
+    @include medidas(80px ,0.6% ,1% 0 0 0 );
+}
+
+.logo{
+    @include medidas(8%, null,null )
+}
+
+@mixin estilos ($decoracion, $tamaño, $peso, $fuente, $tipo) {
+    text-decoration: $decoracion;
+    font-size: $tamaño;
+    font-weight: $peso;
+    font-family: $fuente;
+    text-transform: $tipo;
+}
+
+
+.estilos{
+    @include estilos(none, 1.2 rem, 500, 'Louis George Cafe Bold', capitalize);
+}
