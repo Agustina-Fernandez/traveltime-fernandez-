@@ -8,6 +8,15 @@
   width: 8%;
 }
 
+.estilos {
+  text-decoration: none;
+  font-size: 1.2 rem;
+  font-weight: 500;
+  font-family: "Louis George Cafe Bold";
+  text-transform: capitalize;
+}
+
+/*header*/
 header {
   background-color: #00b4d8;
   border-bottom: 2px solid #d67ab1;
@@ -18,6 +27,17 @@ header nav ul li a {
 }
 header nav ul li a:hover {
   color: palegreen;
+}
+
+/*fin header*/
+.logo-header {
+  width: 80px;
+  padding: 0.6%;
+  margin: 1% 0 0 0;
+}
+
+.logo {
+  width: 8%;
 }
 
 .estilos {
