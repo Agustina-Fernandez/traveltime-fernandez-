@@ -13,15 +13,26 @@
     @include medidas(8%, null,null )
 }
 
-@mixin estilos ($decoracion, $tamaño, $peso, $fuente, $tipo) {
+@mixin estilos ($decoracion, $tamaño, $peso, $fuente, $tipo, $estilo, $sombra, $lista) {
     text-decoration: $decoracion;
     font-size: $tamaño;
     font-weight: $peso;
     font-family: $fuente;
     text-transform: $tipo;
+    font-style: $estilo;
+    text-shadow: $sombra;
+    list-style-type: $lista;
 }
 
 
 .estilos{
-    @include estilos(none, 1.2 rem, 500, 'Louis George Cafe Bold', capitalize);
+    @include estilos(none, 1.2 rem, 500, 'Louis George Cafe Bold', capitalize, null, null, null);
+}
+
+/*Secciones 3,4,5,6 y 7 de la pagina principal*/ 
+
+
+.texto{
+    @include estilos(null, large, 900, 'Louis George Cafe Bold', uppercase, italic, null, null);
+    margin: 5% 0 5% 0.5%;
 }
