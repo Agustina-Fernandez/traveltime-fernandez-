@@ -89,5 +89,17 @@ header nav ul li a:hover {
   src: url("../web-fonts/louis_george_cafe_bold-webfont.woff") format("woff");
   font-display: swap;
 }
+.titles, .opciones {
+  text-transform: uppercase;
+  color: pink;
+  font-weight: 600;
+  font-size: xx-large;
+  font-family: "Blacklisted";
+  text-shadow: cornflowerblue 5px 2px 4px;
+}
+
+.opciones {
+  margin-bottom: 0.8%;
+}
 
 /*# sourceMappingURL=style.css.map */
