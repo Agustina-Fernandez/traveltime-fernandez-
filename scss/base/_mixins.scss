@@ -43,5 +43,6 @@ h1{
 }
 
 .lugares{
-    @include estilos(full-width, medium, 200, 'Louis George Cafe Bold', lowercase, italic, null, null)
+    @include estilos(full-width, medium, 200, 'Louis George Cafe Bold', lowercase, italic, null, null);
+    color: pink;
 }
