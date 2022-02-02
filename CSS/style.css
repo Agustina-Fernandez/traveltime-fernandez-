@@ -32,4 +32,14 @@ header nav ul li a:hover {
 /*fin header*/
 
 
+/*seccion formulario*/
+.formulario {
+  color: mistyrose;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 5%;
+}
+
 /*# sourceMappingURL=style.css.map */
