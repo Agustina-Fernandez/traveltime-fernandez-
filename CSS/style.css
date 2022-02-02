@@ -16,6 +16,16 @@
   text-transform: capitalize;
 }
 
+/*Secciones 3,4,5,6 y 7 de la pagina principal*/
+.texto {
+  font-size: large;
+  font-weight: 900;
+  font-family: "Louis George Cafe Bold";
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 5% 0 5% 0.5%;
+}
+
 /*header*/
 header {
   background-color: #00b4d8;
@@ -46,6 +56,16 @@ header nav ul li a:hover {
   font-weight: 500;
   font-family: "Louis George Cafe Bold";
   text-transform: capitalize;
+}
+
+/*Secciones 3,4,5,6 y 7 de la pagina principal*/
+.texto {
+  font-size: large;
+  font-weight: 900;
+  font-family: "Louis George Cafe Bold";
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 5% 0 5% 0.5%;
 }
 
 /*seccion formulario*/
