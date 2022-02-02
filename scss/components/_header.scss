@@ -1,7 +1,7 @@
 @import '../base/listas';
 @import '../base/variable';
 @import '../base/mixins';
-
+/*header*/ 
 header{
 
       background-color: nth($colores, 2);
@@ -57,3 +57,4 @@ header{
 
 
 }
+/*fin header*/ 
