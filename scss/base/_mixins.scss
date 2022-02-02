@@ -36,3 +36,8 @@
     @include estilos(null, large, 900, 'Louis George Cafe Bold', uppercase, italic, null, null);
     margin: 5% 0 5% 0.5%;
 }
+
+
+h1{
+    @include medidas(null, null, 7% 0 0 0);
+}
