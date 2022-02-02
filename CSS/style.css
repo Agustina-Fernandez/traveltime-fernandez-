@@ -30,6 +30,15 @@ h1 {
   margin: 7% 0 0 0;
 }
 
+.lugares {
+  text-decoration: full-width;
+  font-size: medium;
+  font-weight: 200;
+  font-family: "Louis George Cafe Bold";
+  text-transform: lowercase;
+  font-style: italic;
+}
+
 /*header*/
 header {
   background-color: #00b4d8;
@@ -74,6 +83,15 @@ header nav ul li a:hover {
 
 h1 {
   margin: 7% 0 0 0;
+}
+
+.lugares {
+  text-decoration: full-width;
+  font-size: medium;
+  font-weight: 200;
+  font-family: "Louis George Cafe Bold";
+  text-transform: lowercase;
+  font-style: italic;
 }
 
 /*seccion formulario*/
