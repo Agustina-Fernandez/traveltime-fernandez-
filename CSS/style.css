@@ -30,22 +30,6 @@ header nav ul li a:hover {
 }
 
 /*fin header*/
-.logo-header {
-  width: 80px;
-  padding: 0.6%;
-  margin: 1% 0 0 0;
-}
 
-.logo {
-  width: 8%;
-}
-
-.estilos {
-  text-decoration: none;
-  font-size: 1.2 rem;
-  font-weight: 500;
-  font-family: "Louis George Cafe Bold";
-  text-transform: capitalize;
-}
 
 /*# sourceMappingURL=style.css.map */
