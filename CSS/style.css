@@ -30,7 +30,23 @@ header nav ul li a:hover {
 }
 
 /*fin header*/
+.logo-header {
+  width: 80px;
+  padding: 0.6%;
+  margin: 1% 0 0 0;
+}
 
+.logo {
+  width: 8%;
+}
+
+.estilos {
+  text-decoration: none;
+  font-size: 1.2 rem;
+  font-weight: 500;
+  font-family: "Louis George Cafe Bold";
+  text-transform: capitalize;
+}
 
 /*seccion formulario*/
 .formulario {
@@ -40,6 +56,18 @@ header nav ul li a:hover {
 
 .container {
   margin-top: 5%;
+}
+
+/*Fuentes*/
+@font-face {
+  font-family: "Blacklisted";
+  src: url("../web-fonts/blacklisted-webfont.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Louis George Cafe Bold";
+  src: url("../web-fonts/louis_george_cafe_bold-webfont.woff") format("woff");
+  font-display: swap;
 }
 
 /*# sourceMappingURL=style.css.map */
