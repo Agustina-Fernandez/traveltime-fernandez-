@@ -26,6 +26,10 @@
   margin: 5% 0 5% 0.5%;
 }
 
+h1 {
+  margin: 7% 0 0 0;
+}
+
 /*header*/
 header {
   background-color: #00b4d8;
@@ -66,6 +70,10 @@ header nav ul li a:hover {
   text-transform: uppercase;
   font-style: italic;
   margin: 5% 0 5% 0.5%;
+}
+
+h1 {
+  margin: 7% 0 0 0;
 }
 
 /*seccion formulario*/
