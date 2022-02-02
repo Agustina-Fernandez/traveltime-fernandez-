@@ -41,3 +41,7 @@
 h1{
     @include medidas(null, null, 7% 0 0 0);
 }
+
+.lugares{
+    @include estilos(full-width, medium, 200, 'Louis George Cafe Bold', lowercase, italic, null, null)
+}
