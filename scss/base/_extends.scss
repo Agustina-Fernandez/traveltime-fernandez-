@@ -1,0 +1,18 @@
+%letras{
+    text-transform:uppercase;
+    color: pink;
+    font-weight: 600;
+    font-size: xx-large;
+    font-family:'Blacklisted';
+    text-shadow: cornflowerblue 5px 2px 4px;
+}
+
+.opciones{
+    @extend %letras;
+    margin-bottom: 0.8%;
+}
+
+/*Titulos en la pagina excursiones*/ 
+.titles{
+    @extend %letras;
+}
