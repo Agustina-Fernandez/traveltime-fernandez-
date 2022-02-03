@@ -10,7 +10,7 @@
 
 .estilos {
   text-decoration: none;
-  font-size: 1.2 rem;
+  font-size: 1.2rem;
   font-weight: 500;
   font-family: "Louis George Cafe Bold";
   text-transform: capitalize;
@@ -42,6 +42,60 @@ h1 {
 
 .section-container {
   margin: 3.5% 0 0 0;
+}
+
+/*Subtitulos de la pagina excursiones*/
+.nombres-parques {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Louis George Cafe Bold";
+  text-transform: capitalize;
+  font-style: italic;
+  margin-top: 3.5%;
+}
+
+/*Textos de la pagina excursiones*/
+ol li {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Louis George Cafe Bold";
+  text-transform: lowercase;
+  font-style: italic;
+  list-style-type: none;
+  color: pink;
+}
+
+ul li {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Louis George Cafe Bold";
+  text-transform: lowercase;
+  font-style: italic;
+  list-style-type: none;
+  color: pink;
+}
+
+.parrafo-excursiones {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Louis George Cafe Bold";
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+/*Seccion Hoteles*/
+.hoteles {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: "Louis George Cafe Bold";
+  text-transform: capitalize;
+  font-style: normal;
+}
+
+.enlaces {
+  font-size: 1rem;
+  list-style-type: none;
 }
 
 /*header*/
@@ -70,7 +124,7 @@ header nav ul li a:hover {
 
 .estilos {
   text-decoration: none;
-  font-size: 1.2 rem;
+  font-size: 1.2rem;
   font-weight: 500;
   font-family: "Louis George Cafe Bold";
   text-transform: capitalize;
@@ -102,6 +156,60 @@ h1 {
 
 .section-container {
   margin: 3.5% 0 0 0;
+}
+
+/*Subtitulos de la pagina excursiones*/
+.nombres-parques {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Louis George Cafe Bold";
+  text-transform: capitalize;
+  font-style: italic;
+  margin-top: 3.5%;
+}
+
+/*Textos de la pagina excursiones*/
+ol li {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Louis George Cafe Bold";
+  text-transform: lowercase;
+  font-style: italic;
+  list-style-type: none;
+  color: pink;
+}
+
+ul li {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Louis George Cafe Bold";
+  text-transform: lowercase;
+  font-style: italic;
+  list-style-type: none;
+  color: pink;
+}
+
+.parrafo-excursiones {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Louis George Cafe Bold";
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+/*Seccion Hoteles*/
+.hoteles {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: "Louis George Cafe Bold";
+  text-transform: capitalize;
+  font-style: normal;
+}
+
+.enlaces {
+  font-size: 1rem;
+  list-style-type: none;
 }
 
 /*seccion formulario*/
