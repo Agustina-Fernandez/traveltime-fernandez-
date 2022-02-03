@@ -25,3 +25,12 @@
      margin-top: 3%;
      padding-right: 10%;
 }
+
+/*imagenes de la seccion transporte*/ 
+.alamo{
+    @extend %imagenes;
+}
+
+.hertz{
+    @extend %imagenes;
+}
