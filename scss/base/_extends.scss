@@ -17,3 +17,11 @@
 .titles{
     @extend %letras;
 }
+
+%imagenes{
+     
+     filter: brightness(1.1);
+     mix-blend-mode: multiply;
+     margin-top: 3%;
+     padding-right: 10%;
+}
