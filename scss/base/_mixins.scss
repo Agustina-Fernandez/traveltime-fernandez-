@@ -26,7 +26,7 @@
 
 
 .estilos{
-    @include estilos(none, 1.2 rem, 500, 'Louis George Cafe Bold', capitalize, null, null, null);
+    @include estilos(none, 1.2rem, 500, 'Louis George Cafe Bold', capitalize, null, null, null);
 }
 
 /*Secciones 3,4,5,6 y 7 de la pagina principal*/ 
@@ -49,4 +49,38 @@ h1{
 
 .section-container{
     @include medidas(null, null, 3.5% 0 0 0);
+}
+
+/*Subtitulos de la pagina excursiones*/ 
+
+.nombres-parques{
+    @include estilos( null, 2rem, 400, 'Louis George Cafe Bold', capitalize, italic, null, null);
+    margin-top: 3.5%;
+}
+
+/*Textos de la pagina excursiones*/ 
+
+ol li{
+    @include estilos(null, 1.5rem, 900, 'Louis George Cafe Bold', lowercase, italic, null, none);
+    color: pink;
+}
+
+ul li{
+    @include estilos(null, 1.5rem, 900, 'Louis George Cafe Bold', lowercase, italic, null, none);
+    color: pink;
+}
+
+.parrafo-excursiones{
+    @include estilos(null, 1.5rem, 900, 'Louis George Cafe Bold', uppercase, normal, null, null);
+}
+
+/*Seccion Hoteles*/ 
+
+.hoteles{
+    @include estilos(none, 1rem, 100, 'Louis George Cafe Bold', capitalize, normal, null, null);
+}
+
+.enlaces{
+    font-size: 1rem;
+    list-style-type: none;
 }
