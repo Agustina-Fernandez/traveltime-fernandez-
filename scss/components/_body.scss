@@ -1,0 +1,11 @@
+@import '../base/listas';
+@import '../base/variable';
+
+body{
+    
+    color: nth($colores, 6);
+    background-attachment: $background-attachment;
+    background-repeat: $background-repeat;
+    background-size: $background-size;
+    font-family: 'Louis George Cafe Bold';
+}
