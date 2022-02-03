@@ -46,3 +46,7 @@ h1{
     @include estilos(full-width, medium, 200, 'Louis George Cafe Bold', lowercase, italic, null, null);
     color: pink;
 }
+
+.section-container{
+    @include medidas(null, null, 3.5% 0 0 0);
+}
