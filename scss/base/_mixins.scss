@@ -128,3 +128,19 @@ ul li{
 .icons:hover .twitt{
     @include transformaciones(rotate(180deg));
 }
+
+.face{
+    transition: all 3s ease;
+}
+
+.insta{
+    transition: all 3s ease-out;
+}
+
+.whats{
+    transition: all 3s ease-in-out;
+}
+
+.twitt{
+    transition: all 3s ease-in;
+}
