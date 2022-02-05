@@ -90,3 +90,38 @@ ul li{
     font-size: 1rem;
     list-style-type: none;
 }
+
+/*Imagenes de la pagina excursiones*/ 
+
+.imagenes-atracciones{
+    @include medidas(null, 0 6% 0 0,1% 0 0 0 );
+}
+
+@mixin display ($display, $gridcol, $gridrow, $area, $horizontal) {
+      display: $display;
+      grid-template-columns: $gridcol;
+      grid-template-rows: $gridrow;
+      grid-area: $area;
+      justify-content: $horizontal;
+}
+
+/*Footer de la pagina principal*/ 
+
+.iconos-redes{
+    @include display(grid, repeat(7,1fr), repeat(1,1fr), null, null);
+}
+
+.iconos-redes ul{
+    @include display(flex, null, null, 1 / 2 / 1 / 7, space-around);
+    margin: 5% 0;
+    list-style-type: none;
+}
+
+@mixin transformaciones ($valor) {
+    transform: $valor;
+}
+
+/*transformaciones y transiciones de las redes sociales*/ 
+.icons:hover .face, .insta, .whats, .twitt{
+    @include transformaciones(rotate(180deg));
+}
