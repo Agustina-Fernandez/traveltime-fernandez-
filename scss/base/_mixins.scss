@@ -5,6 +5,12 @@
     margin: $margen;
 }
 
+/*selector universal*/ 
+*{
+    @include medidas(null, 0, 0);
+    box-sizing: border-box;
+}
+
 .logo-header{
     @include medidas(80px ,0.6% ,1% 0 0 0 );
 }
@@ -13,9 +19,9 @@
     @include medidas(8%, null,null )
 }
 
-@mixin estilos ($decoracion, $tamaño, $peso, $fuente, $tipo, $estilo, $sombra, $lista) {
+@mixin estilos ($decoracion, $size, $peso, $fuente, $tipo, $estilo, $sombra, $lista) {
     text-decoration: $decoracion;
-    font-size: $tamaño;
+    font-size: $size;
     font-weight: $peso;
     font-family: $fuente;
     text-transform: $tipo;
