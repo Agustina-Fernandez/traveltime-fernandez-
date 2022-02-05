@@ -122,6 +122,9 @@ ul li{
 }
 
 /*transformaciones y transiciones de las redes sociales*/ 
-.icons:hover .face, .insta, .whats, .twitt{
+.icons:hover .face,
+.icons:hover .insta,
+.icons:hover .whats,
+.icons:hover .twitt{
     @include transformaciones(rotate(180deg));
 }
