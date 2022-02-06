@@ -1,0 +1,136 @@
+@import '_listas.scss';
+
+
+$mobile: ( 
+    bg-color-mobile: #d67ab1,
+    text-color-mobile: lightblue,
+    border-bottom-mobile: 2px solid #00b4d8,
+    font-general-mobile: medium,
+    font-titles-mobile: x-large,
+    font-weight-text: 700,
+    text-shadow-mobile: pink 5px 2px 4px,
+    text-transform-mobile: uppercase,
+);
+
+/*media queries*/ 
+
+@media only screen and (max-width:599px) {
+    header{
+         border-bottom: map-get($mobile, border-bottom-mobile);
+         background-color: map-get($mobile ,bg-color-mobile);
+    }
+    .opciones{
+        margin-bottom: 0.8%;
+        font-size: map-get($mobile, font-titles-mobile);
+        font-family: 'Blacklisted';
+        color: nth($colores, 7 );
+        text-shadow: map-get($mobile , text-shadow-mobile);
+    }
+     ol li{
+       color: map-get($mobile, text-color-mobile );
+       text-transform: map-get($mobile, text-transform-mobile );
+       font-family: 'Louis George Cafe Bold';
+       font-weight: map-get($mobile, font-weight-text );
+       margin-bottom: 0.5%;
+       font-size: map-get($mobile, font-general-mobile );
+    }
+    
+    ul li{
+       color: map-get($mobile, text-color-mobile );
+       text-transform: map-get($mobile, text-transform-mobile );
+       font-family: 'Louis George Cafe Bold';
+       font-weight: map-get($mobile, font-weight-text );
+       margin-bottom: 0.5%;
+       font-size: map-get($mobile, font-general-mobile);
+    }
+    
+    body{
+        color: nth($colores, 5);
+    }
+    
+    .nombres-parques{
+        color: nth($colores, 5 );
+    }
+    
+    .lugares{
+        margin-left: 2%;
+        font-family: 'Louis George Cafe Bold';
+        color: map-get($mobile , text-color-mobile );
+        font-size: map-get($mobile, font-general-mobile);
+        font-style: italic;
+        font-weight: 200;
+    }
+    
+    .titles{
+        text-transform: map-get($mobile, text-transform-mobile );
+        color: nth($colores, 7);
+        font-weight: 400;
+        font-size: map-get($mobile, font-titles-mobile );
+        font-family: 'Blacklisted';
+        text-shadow: map-get($mobile, text-shadow-mobile );
+    }
+}
+
+
+$tablet: ( 
+    font-titles-tablet: xx-large,
+    font-general-tablet: larger,
+    font-weight-text:900,
+);
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+     header{
+        background-color: map-get($mobile , bg-color-mobile );
+        border-bottom: map-get($mobile, border-bottom-mobile );
+    }
+    .opciones{
+       color: nth($colores, 7 );
+       margin-bottom: 0.8%;
+       font-family: 'Blacklisted';
+       font-size: map-get($tablet, font-titles-tablet);
+       text-shadow: map-get($mobile , text-shadow-mobile);
+    }
+    
+    .nombres-parques{
+       color: nth($colores, 5 );
+    }
+    
+    body{
+      color: nth($colores, 5 );
+    }
+    
+    .titles{
+       text-transform: map-get($mobile , text-transform-mobile );
+       color: nth($colores, 7 );
+       font-weight: 600;
+       font-size: map-get($tablet, font-titles-tablet );
+       font-family: 'Blacklisted';
+       text-shadow: map-get($mobile, text-shadow-mobile );
+    }
+    
+    ol li{
+       color: map-get($mobile, text-color-mobile );
+       text-transform: map-get($mobile, text-transform-mobile);
+       font-family: 'Louis George Cafe Bold';
+       font-weight: map-get($tablet, font-weight-text );
+       margin-bottom: 0.5%;
+       font-size: map-get($tablet, font-general-tablet );
+    }
+    
+    ul li{
+       color: map-get($mobile, text-color-mobile );
+       text-transform: map-get($mobile, text-transform-mobile );
+       font-family: 'Louis George Cafe Bold';
+       font-weight: map-get($tablet, font-weight-text );
+       margin-bottom: 0.5%;
+       font-size: map-get($tablet, font-general-tablet);
+    }
+    
+    .lugares{
+        font-family: 'Louis George Cafe Bold';
+        font-size: map-get($tablet, font-general-tablet );
+        font-weight: 200;
+        font-style: italic;
+        color: map-get($mobile , text-color-mobile );
+    }
+}
