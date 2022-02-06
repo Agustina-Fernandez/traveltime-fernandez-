@@ -105,6 +105,51 @@ ul li {
   list-style-type: none;
 }
 
+/*Imagenes de la pagina excursiones*/
+.imagenes-atracciones {
+  padding: 0 6% 0 0;
+  margin: 1% 0 0 0;
+}
+
+/*Footer de la pagina principal*/
+.iconos-redes {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.iconos-redes ul {
+  display: flex;
+  grid-area: 0.0714285714;
+  justify-content: space-around;
+  margin: 5% 0;
+  list-style-type: none;
+}
+
+/*transformaciones y transiciones de las redes sociales*/
+.icons:hover .face,
+.icons:hover .insta,
+.icons:hover .whats,
+.icons:hover .twitt {
+  transform: rotate(180deg);
+}
+
+.face {
+  transition: all 3s ease;
+}
+
+.insta {
+  transition: all 3s ease-out;
+}
+
+.whats {
+  transition: all 3s ease-in-out;
+}
+
+.twitt {
+  transition: all 3s ease-in;
+}
+
 /*header*/
 header {
   background-color: #00b4d8;
@@ -226,6 +271,51 @@ ul li {
   list-style-type: none;
 }
 
+/*Imagenes de la pagina excursiones*/
+.imagenes-atracciones {
+  padding: 0 6% 0 0;
+  margin: 1% 0 0 0;
+}
+
+/*Footer de la pagina principal*/
+.iconos-redes {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.iconos-redes ul {
+  display: flex;
+  grid-area: 0.0714285714;
+  justify-content: space-around;
+  margin: 5% 0;
+  list-style-type: none;
+}
+
+/*transformaciones y transiciones de las redes sociales*/
+.icons:hover .face,
+.icons:hover .insta,
+.icons:hover .whats,
+.icons:hover .twitt {
+  transform: rotate(180deg);
+}
+
+.face {
+  transition: all 3s ease;
+}
+
+.insta {
+  transition: all 3s ease-out;
+}
+
+.whats {
+  transition: all 3s ease-in-out;
+}
+
+.twitt {
+  transition: all 3s ease-in;
+}
+
 /*seccion formulario*/
 .formulario {
   color: mistyrose;
@@ -280,6 +370,123 @@ body {
 /*imagen del castillo en la pagina principal*/
 .imagen-castillo {
   width: 100%;
+}
+
+/*media queries*/
+@media only screen and (max-width: 599px) {
+  header {
+    border-bottom: 2px solid #00b4d8;
+    background-color: #d67ab1;
+  }
+
+  .opciones {
+    margin-bottom: 0.8%;
+    font-size: x-large;
+    font-family: "Blacklisted";
+    color: cornflowerblue;
+    text-shadow: pink 5px 2px 4px;
+  }
+
+  ol li {
+    color: lightblue;
+    text-transform: uppercase;
+    font-family: "Louis George Cafe Bold";
+    font-weight: 700;
+    margin-bottom: 0.5%;
+    font-size: medium;
+  }
+
+  ul li {
+    color: lightblue;
+    text-transform: uppercase;
+    font-family: "Louis George Cafe Bold";
+    font-weight: 700;
+    margin-bottom: 0.5%;
+    font-size: medium;
+  }
+
+  body {
+    color: mistyrose;
+  }
+
+  .nombres-parques {
+    color: mistyrose;
+  }
+
+  .lugares {
+    margin-left: 2%;
+    font-family: "Louis George Cafe Bold";
+    color: lightblue;
+    font-size: medium;
+    font-style: italic;
+    font-weight: 200;
+  }
+
+  .titles {
+    text-transform: uppercase;
+    color: cornflowerblue;
+    font-weight: 400;
+    font-size: x-large;
+    font-family: "Blacklisted";
+    text-shadow: pink 5px 2px 4px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  header {
+    background-color: #d67ab1;
+    border-bottom: 2px solid #00b4d8;
+  }
+
+  .opciones {
+    color: cornflowerblue;
+    margin-bottom: 0.8%;
+    font-family: "Blacklisted";
+    font-size: xx-large;
+    text-shadow: pink 5px 2px 4px;
+  }
+
+  .nombres-parques {
+    color: mistyrose;
+  }
+
+  body {
+    color: mistyrose;
+  }
+
+  .titles {
+    text-transform: uppercase;
+    color: cornflowerblue;
+    font-weight: 600;
+    font-size: xx-large;
+    font-family: "Blacklisted";
+    text-shadow: pink 5px 2px 4px;
+  }
+
+  ol li {
+    color: lightblue;
+    text-transform: uppercase;
+    font-family: "Louis George Cafe Bold";
+    font-weight: 900;
+    margin-bottom: 0.5%;
+    font-size: larger;
+  }
+
+  ul li {
+    color: lightblue;
+    text-transform: uppercase;
+    font-family: "Louis George Cafe Bold";
+    font-weight: 900;
+    margin-bottom: 0.5%;
+    font-size: larger;
+  }
+
+  .lugares {
+    font-family: "Louis George Cafe Bold";
+    font-size: larger;
+    font-weight: 200;
+    font-style: italic;
+    color: lightblue;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
