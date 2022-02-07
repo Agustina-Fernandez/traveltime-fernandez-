@@ -83,8 +83,15 @@ ul li{
 /*Seccion Hoteles*/ 
 
 .hoteles{
-    @include estilos(none, 1rem, 100, 'Louis George Cafe Bold', capitalize, normal, null, null);
+    @include estilos(none, 1rem, bold, 'Louis George Cafe Bold', capitalize, normal, null, null);
+    color: mistyrose;
 }
+
+
+.hoteles:hover{
+    color: palegreen;
+}
+
 
 .enlaces{
     font-size: 1rem;
