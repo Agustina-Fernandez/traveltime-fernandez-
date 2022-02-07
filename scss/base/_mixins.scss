@@ -97,22 +97,22 @@ ul li{
     @include medidas(null, 0 6% 0 0,1% 0 0 0 );
 }
 
-@mixin display ($display, $gridcol, $gridrow, $area, $horizontal) {
+@mixin display ($display, $gridcol, $gridrow, $horizontal) {
       display: $display;
       grid-template-columns: $gridcol;
       grid-template-rows: $gridrow;
-      grid-area: $area;
       justify-content: $horizontal;
 }
 
 /*Footer de la pagina principal*/ 
 
 .iconos-redes{
-    @include display(grid, repeat(7,1fr), repeat(1,1fr), null, null);
+    @include display(grid, repeat(7,1fr), repeat(1,1fr), null);
 }
 
 .iconos-redes ul{
-    @include display(flex, null, null, 1 / 2 / 1 / 7, space-around);
+    @include display(flex, null, null, space-around);
+    grid-area: 1 / 2 / 1 / 7;
     margin: 5% 0;
     list-style-type: none;
 }
