@@ -7,6 +7,10 @@
     text-decoration: $text-decoration;
 } 
 
+
+.formulario:hover{
+    color: nth($colores, 1 );
+}
 .container{
     margin-top: 5%;
 }
