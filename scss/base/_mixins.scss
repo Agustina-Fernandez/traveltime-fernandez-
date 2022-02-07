@@ -77,7 +77,7 @@ ul li{
 }
 
 .parrafo-excursiones{
-    @include estilos(null, 1.5rem, 900, 'Louis George Cafe Bold', uppercase, normal, null, null);
+    @include estilos(null, 1.5rem, lighter, 'Louis George Cafe Bold', uppercase, normal, null, null);
 }
 
 /*Seccion Hoteles*/ 
