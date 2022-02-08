@@ -84,7 +84,7 @@ ul li {
 
 .parrafo-excursiones {
   font-size: 1.5rem;
-  font-weight: 900;
+  font-weight: lighter;
   font-family: "Louis George Cafe Bold";
   text-transform: uppercase;
   font-style: normal;
@@ -94,10 +94,15 @@ ul li {
 .hoteles {
   text-decoration: none;
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: bold;
   font-family: "Louis George Cafe Bold";
   text-transform: capitalize;
   font-style: normal;
+  color: mistyrose;
+}
+
+.hoteles:hover {
+  color: palegreen;
 }
 
 .enlaces {
@@ -120,8 +125,8 @@ ul li {
 
 .iconos-redes ul {
   display: flex;
-  grid-area: 0.0714285714;
   justify-content: space-around;
+  grid-area: 1/2/1/7;
   margin: 5% 0;
   list-style-type: none;
 }
@@ -250,7 +255,7 @@ ul li {
 
 .parrafo-excursiones {
   font-size: 1.5rem;
-  font-weight: 900;
+  font-weight: lighter;
   font-family: "Louis George Cafe Bold";
   text-transform: uppercase;
   font-style: normal;
@@ -260,10 +265,15 @@ ul li {
 .hoteles {
   text-decoration: none;
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: bold;
   font-family: "Louis George Cafe Bold";
   text-transform: capitalize;
   font-style: normal;
+  color: mistyrose;
+}
+
+.hoteles:hover {
+  color: palegreen;
 }
 
 .enlaces {
@@ -286,8 +296,8 @@ ul li {
 
 .iconos-redes ul {
   display: flex;
-  grid-area: 0.0714285714;
   justify-content: space-around;
+  grid-area: 1/2/1/7;
   margin: 5% 0;
   list-style-type: none;
 }
@@ -320,6 +330,10 @@ ul li {
 .formulario {
   color: mistyrose;
   text-decoration: none;
+}
+
+.formulario:hover {
+  color: palegreen;
 }
 
 .container {
