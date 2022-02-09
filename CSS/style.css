@@ -21,6 +21,7 @@
   font-weight: 500;
   font-family: "Louis George Cafe Bold";
   text-transform: capitalize;
+  color: #f1c0e8;
 }
 
 /*Secciones 3,4,5,6 y 7 de la pagina principal*/
@@ -44,7 +45,7 @@ h1 {
   font-family: "Louis George Cafe Bold";
   text-transform: lowercase;
   font-style: italic;
-  color: pink;
+  color: #f1c0e8;
 }
 
 .section-container {
@@ -69,7 +70,7 @@ ol li {
   text-transform: lowercase;
   font-style: italic;
   list-style-type: none;
-  color: pink;
+  color: #f1c0e8;
 }
 
 ul li {
@@ -79,7 +80,7 @@ ul li {
   text-transform: lowercase;
   font-style: italic;
   list-style-type: none;
-  color: pink;
+  color: #f1c0e8;
 }
 
 .parrafo-excursiones {
@@ -98,7 +99,7 @@ ul li {
   font-family: "Louis George Cafe Bold";
   text-transform: capitalize;
   font-style: normal;
-  color: mistyrose;
+  color: #f1c0e8;
 }
 
 .hoteles:hover {
@@ -157,11 +158,14 @@ ul li {
 
 /*header*/
 header {
-  background-color: #00b4d8;
-  border-bottom: 2px solid #d67ab1;
+  background-color: #48cae4;
+  border-bottom: 2px solid #f1c0e8;
+}
+header nav ul li {
+  font-style: normal;
 }
 header nav ul li a {
-  color: #dab6fc;
+  color: #f1c0e8;
   padding: 0 1.3rem;
 }
 header nav ul li a:hover {
@@ -192,6 +196,7 @@ header nav ul li a:hover {
   font-weight: 500;
   font-family: "Louis George Cafe Bold";
   text-transform: capitalize;
+  color: #f1c0e8;
 }
 
 /*Secciones 3,4,5,6 y 7 de la pagina principal*/
@@ -215,7 +220,7 @@ h1 {
   font-family: "Louis George Cafe Bold";
   text-transform: lowercase;
   font-style: italic;
-  color: pink;
+  color: #f1c0e8;
 }
 
 .section-container {
@@ -240,7 +245,7 @@ ol li {
   text-transform: lowercase;
   font-style: italic;
   list-style-type: none;
-  color: pink;
+  color: #f1c0e8;
 }
 
 ul li {
@@ -250,7 +255,7 @@ ul li {
   text-transform: lowercase;
   font-style: italic;
   list-style-type: none;
-  color: pink;
+  color: #f1c0e8;
 }
 
 .parrafo-excursiones {
@@ -269,7 +274,7 @@ ul li {
   font-family: "Louis George Cafe Bold";
   text-transform: capitalize;
   font-style: normal;
-  color: mistyrose;
+  color: #f1c0e8;
 }
 
 .hoteles:hover {
@@ -328,7 +333,7 @@ ul li {
 
 /*seccion formulario*/
 .formulario {
-  color: mistyrose;
+  color: #f1c0e8;
   text-decoration: none;
 }
 
@@ -353,11 +358,11 @@ ul li {
 }
 .titles, .opciones {
   text-transform: uppercase;
-  color: pink;
+  color: #f1c0e8;
   font-weight: 600;
   font-size: xx-large;
   font-family: "Blacklisted";
-  text-shadow: cornflowerblue 5px 2px 4px;
+  text-shadow: #ade8f4 5px 2px 4px;
   font-style: oblique;
 }
 
@@ -374,7 +379,7 @@ ul li {
 
 /*imagenes de la seccion transporte*/
 body {
-  color: #fffd5d;
+  color: #ade8f4;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -389,20 +394,20 @@ body {
 /*media queries*/
 @media only screen and (max-width: 599px) {
   header {
-    border-bottom: 2px solid #00b4d8;
-    background-color: #d67ab1;
+    border-bottom: 2px solid #48cae4;
+    background-color: #f1c0e8;
   }
 
   .opciones {
     margin-bottom: 0.8%;
     font-size: x-large;
     font-family: "Blacklisted";
-    color: cornflowerblue;
-    text-shadow: pink 5px 2px 4px;
+    color: #ade8f4;
+    text-shadow: #f1c0e8 5px 2px 4px;
   }
 
   ol li {
-    color: lightblue;
+    color: #ade8f4;
     text-transform: uppercase;
     font-family: "Louis George Cafe Bold";
     font-weight: 700;
@@ -411,7 +416,7 @@ body {
   }
 
   ul li {
-    color: lightblue;
+    color: #ade8f4;
     text-transform: uppercase;
     font-family: "Louis George Cafe Bold";
     font-weight: 700;
@@ -419,18 +424,30 @@ body {
     font-size: medium;
   }
 
+  .hoteles {
+    color: #ade8f4;
+  }
+
+  .estilos {
+    color: #ade8f4;
+  }
+
+  .formulario {
+    color: #ade8f4;
+  }
+
   body {
-    color: mistyrose;
+    color: #f1c0e8;
   }
 
   .nombres-parques {
-    color: mistyrose;
+    color: #f1c0e8;
   }
 
   .lugares {
     margin-left: 2%;
     font-family: "Louis George Cafe Bold";
-    color: lightblue;
+    color: #ade8f4;
     font-size: medium;
     font-style: italic;
     font-weight: 200;
@@ -438,46 +455,58 @@ body {
 
   .titles {
     text-transform: uppercase;
-    color: cornflowerblue;
+    color: #ade8f4;
     font-weight: 400;
     font-size: x-large;
     font-family: "Blacklisted";
-    text-shadow: pink 5px 2px 4px;
+    text-shadow: #f1c0e8 5px 2px 4px;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   header {
-    background-color: #d67ab1;
-    border-bottom: 2px solid #00b4d8;
+    background-color: #f1c0e8;
+    border-bottom: 2px solid #48cae4;
   }
 
   .opciones {
-    color: cornflowerblue;
+    color: #ade8f4;
     margin-bottom: 0.8%;
     font-family: "Blacklisted";
     font-size: xx-large;
-    text-shadow: pink 5px 2px 4px;
+    text-shadow: #f1c0e8 5px 2px 4px;
+  }
+
+  .hoteles {
+    color: #ade8f4;
+  }
+
+  .estilos {
+    color: #ade8f4;
+  }
+
+  .formulario {
+    color: #ade8f4;
   }
 
   .nombres-parques {
-    color: mistyrose;
+    color: #f1c0e8;
   }
 
   body {
-    color: mistyrose;
+    color: #f1c0e8;
   }
 
   .titles {
     text-transform: uppercase;
-    color: cornflowerblue;
+    color: #ade8f4;
     font-weight: 600;
     font-size: xx-large;
     font-family: "Blacklisted";
-    text-shadow: pink 5px 2px 4px;
+    text-shadow: #f1c0e8 5px 2px 4px;
   }
 
   ol li {
-    color: lightblue;
+    color: #ade8f4;
     text-transform: uppercase;
     font-family: "Louis George Cafe Bold";
     font-weight: 900;
@@ -486,7 +515,7 @@ body {
   }
 
   ul li {
-    color: lightblue;
+    color: #ade8f4;
     text-transform: uppercase;
     font-family: "Louis George Cafe Bold";
     font-weight: 900;
@@ -499,7 +528,7 @@ body {
     font-size: larger;
     font-weight: 200;
     font-style: italic;
-    color: lightblue;
+    color: #ade8f4;
   }
 }
 
