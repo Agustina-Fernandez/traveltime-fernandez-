@@ -33,6 +33,7 @@
 
 .estilos{
     @include estilos(none, 1.2rem, 500, 'Louis George Cafe Bold', capitalize, null, null, null);
+    color: #f1c0e8
 }
 
 /*Secciones 3,4,5,6 y 7 de la pagina principal*/ 
@@ -50,7 +51,7 @@ h1{
 
 .lugares{
     @include estilos(full-width, medium, 200, 'Louis George Cafe Bold', lowercase, italic, null, null);
-    color: pink;
+    color: #f1c0e8;
 }
 
 .section-container{
@@ -68,12 +69,12 @@ h1{
 
 ol li{
     @include estilos(null, 1.5rem, 900, 'Louis George Cafe Bold', lowercase, italic, null, none);
-    color: pink;
+    color: #f1c0e8;
 }
 
 ul li{
     @include estilos(null, 1.5rem, 900, 'Louis George Cafe Bold', lowercase, italic, null, none);
-    color: pink;
+    color: #f1c0e8;
 }
 
 .parrafo-excursiones{
@@ -84,7 +85,7 @@ ul li{
 
 .hoteles{
     @include estilos(none, 1rem, bold, 'Louis George Cafe Bold', capitalize, normal, null, null);
-    color: mistyrose;
+    color: #f1c0e8;
 }
 
 
